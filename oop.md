@@ -175,7 +175,7 @@ public class User {
     }
 
     public void callAnotherUser(int number, AbstractPhone phone) {
-// вот он полиморфизм - использование в коде абстактного типа AbstractPhone phone!
+// вот он полиморфизм - использование в коде абстрактного типа AbstractPhone phone!
         phone.call(number);
     }
 }
